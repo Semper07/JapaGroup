@@ -15,7 +15,7 @@
   color: white;
 }
 a:link{
-  font-size: 17px;
+  font-size: 20px;
   text-decoration: none;
 }
 body{
@@ -169,9 +169,10 @@ margin: 20px;
     color: white;
     }
     a:link{
+      font-size: 15px;
     position: relative;
     top: 5px;
-    padding: 7px;
+    padding: 0,6em;
     text-decoration: none;
     }
     body{
