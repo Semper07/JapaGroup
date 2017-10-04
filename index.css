@@ -169,7 +169,7 @@ margin: 20px;
     color: white;
     }
     a:link{
-      font-size: 15px;
+      font-size: 10px;
     position: relative;
     top: 5px;
     padding: 0,6em;
@@ -218,7 +218,7 @@ margin: 20px;
     position: relative;
     bottom: 0px;
   	display: flex;
-    flex-flow: row wrap;
+    flex-flow: row nowrap;
     justify-content: space-evenly;
     margin-top: 8px;
     }
