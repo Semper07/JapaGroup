@@ -41,10 +41,11 @@ main {
 	width: 80%;
 	margin: auto;
 	padding-bottom: 15px;
+  margin-top: 170px;
 }
 footer{
   background-image: url(../images/footer.png);
-	height: 185px;
+	height: 200px;
 }
 h1{
   color: #DCD6D6;
@@ -78,7 +79,6 @@ h2{
 }
 #panoramica {
   display: block;
-  margin-top: 170px;
   width: 100%;
   height: 100%;
 
@@ -124,7 +124,7 @@ h4.nombres{
   font-family: Verdana, Geneva, sans-serif;
 }
 .individual{
-  border: 8px double rgb(76, 131, 99);
+  border: 7px inset #bb3b3b;
   position: relative;
   width: 170px;
   height: 200px;
@@ -155,7 +155,7 @@ margin: 20px;
 }
 .ok{position:relative;top:3px;left:115px;}
 .ok2{position:relative;right:130px;top:50px;float:right;}
-.con{position:relative;top:10px;right:30px;float: right;color:red;font-size:16px; }
+.con{text-align: center;position: relative;top: 5px;color:white;font-size:20px; }
   @media (max-width: 1000px){
     .lista a{
     text-decoration: none;
@@ -200,7 +200,7 @@ margin: 20px;
     }
     footer{
     background-image: url(../images/footer.png);
-  	height: 140px;
+  	height: 165px;
     }
     h1{
     color: #ED2020;
@@ -238,10 +238,9 @@ margin: 20px;
   	padding:20px;
     }
     .parrafo {
-    padding: 7px;
     line-height: 20px;
     font-size: 0.8em;
-    padding: 9px 4% 9px 4%;
+    padding: 10px 5% 10px 5%;
     font-family: Verdana, Geneva, sans-serif;
     }
     ul.galeria-fotos{
@@ -271,11 +270,11 @@ margin: 20px;
     text-align: center;
     }
     .datos{
-    padding: 20px;
+    padding: 5px;
     font-family: Verdana, Geneva, sans-serif;
     }
     .individual{
-    border: 4px double rgb(76, 131, 99);
+    border: 3px inset #bb3b3b;
     position: relative;
     width: 6em;
     height: 8em;
@@ -300,16 +299,16 @@ margin: 20px;
     font-size: 0.9em;
     }
     .informacion{
-    border:5px solid #bb3b3b;
+    border:3px solid #bb3b3b;
     margin:25px;
     }
     .ok{
       height: 7em;
-      width: 10em;
+      width: 14em;
       position:relative;top:3px;left:4px;}
     .ok2{
-      width: 5em;
-      height: 2em;
+      width: 3em;
+      height: 1em;
       position:relative;right:4px;top:3px;float:right;}
-    .con{position:relative;top:10px;right:15%;float: right;color:red;font-size:16px; }
+    .con{text-align: center;color:white;font-size:16px; }
   }
