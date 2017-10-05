@@ -19,9 +19,8 @@ a:link{
   text-decoration: none;
 }
 body{
-	background: url(../images/body.jpg) no-repeat fixed;
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
+	background: url(../images/body.png) repeat fixed;
+  background-repeat: repeat;
 
 }
 header{
@@ -124,7 +123,7 @@ h4.nombres{
   font-family: Verdana, Geneva, sans-serif;
 }
 .individual{
-  border: 8px double rgb(76, 131, 99);
+  border: 7px inset #bb3b3b;
   position: relative;
   width: 170px;
   height: 200px;
