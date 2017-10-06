@@ -2,6 +2,13 @@
   margin: 0;
   padding: 0;
 }
+hr{
+	width: 80%;
+	background-color:#DCD6D6;
+	margin:auto;
+	margin-bottom: 10px;
+	margin-top: 10px
+		}
 .lista a {
   text-decoration: none;
   color: black;
@@ -27,30 +34,28 @@ header{
   top: 0;
   position: fixed;
   z-index: 1;
-  border-top: outset #9a0000 3px;
-  border-bottom: outset #9a0000 3px;
-  height: 165px;
   display: block;
 	background: url(../images/footer.png) repeat;
   background-attachment: fixed;
   width: 100%;
+
 }
 main {
 	background-color: #fff;
 	width: 80%;
 	margin: auto;
 	padding-bottom: 15px;
-  margin-top: 170px;
+    margin-top: 170px;
 }
 footer{
   background-image: url(../images/footer.png);
-	height: 200px;
 }
 h1{
   color: #DCD6D6;
-	text-align: center;
+  text-align: center;
   font-family: sans-serif;
   font-size: 3em;
+
 }
 h2{
 	text-align: center;
@@ -61,17 +66,33 @@ h2{
   position: relative;
   top: 6px;
 }
-
+h3{
+	text-align: center;
+	font-size: 2.5em;
+	padding:20px;
+	background-color: #DCD6D6;
+	margin:auto;
+}
+li h4{
+  color: #2c2c2c;
+  text-align: center;
+}
+li h4:hover{
+  color: #bdbcbc;
+}
+.datos h4{
+  margin: 20px;
+  text-align: center;
+}
 .navegador {
   width: 80%;
   margin: auto;
   padding: 19px;
-  position: relative;
-  bottom: 0px;
 	display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
   margin-top: 10px;
+  margin-bottom: 10px;
 }
 .lista {
 	list-style: none;
@@ -79,13 +100,7 @@ h2{
 #panoramica {
   display: block;
   width: 100%;
-  height: 100%;
 
-}
-h3{
-	text-align: center;
-	font-size: 2.5em;
-	padding:20px;
 }
 .parrafo {
   padding: 7px;
@@ -103,20 +118,11 @@ ul.galeria-fotos{
   justify-content: space-evenly;
 }
 .listado-fotos{
-  width: 15%;
-  height: 15%;
+	width: 15%;
   list-style: none;
 }
 .fotos{
 	width: 100%;
-  height: 100%;
-}
-h4{
-  font-size: 1.5em;
-}
-h4.nombres{
-  color: black;
-  text-align: center;
 }
 .datos{
   padding: 37px;
@@ -126,8 +132,6 @@ h4.nombres{
   border: 7px inset #bb3b3b;
   position: relative;
   width: 170px;
-  height: 200px;
-
   float:left;
   margin: 40px 15px 8px 40px;
 }
@@ -135,10 +139,6 @@ h4.nombres{
 li.listado{
   width: 30%;
   list-style: none;
-}
-.datos h4{
-margin: 20px;
-  text-align: center;
 }
 #link-foto-pablo, #link-foto-juan, #link-foto-alberto, #link-foto-antonio{
   line-height: 20px;
@@ -152,10 +152,10 @@ margin: 20px;
   border:5px solid #bb3b3b;
   margin:25px;
 }
-.ok{position:relative;top:3px;left:115px;}
-.ok2{position:relative;right:130px;top:50px;float:right;}
-.con{text-align: center;position: relative;top: 5px;color:white;font-size:20px; }
-
+.ok{
+	display:block;
+	margin:auto;
+	}
 .link-social img{
   width:100%;
 }
@@ -170,18 +170,7 @@ justify-content: flex-end;
   margin:10px;
 }
 
-  @media (max-width: 1000px){
-    .lista a{
-    text-decoration: none;
-    color: black;
-    padding: 10px;
-    border-radius: 10px;
-    background-color: #DCD6D6;
-    }
-    .lista a:hover {
-    background-color: #CE2222;
-    color: white;
-    }
+  @media (max-width: 768px){
     a:link{
       font-size: 0.9em;
     position: relative;
@@ -189,18 +178,8 @@ justify-content: flex-end;
     padding: 0,6em;
     text-decoration: none;
     }
-    body{
-  	background: url(../images/body.jpg) no-repeat fixed;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    }
     header{
-    top: 0;
-    position: fixed;
-    z-index: 1;
-    border-top: outset #9a0000 3px;
-    border-bottom: outset #9a0000 3px;
-    height: 100px;
+    height: 110px;
     display: block;
   	background: url(../images/footer.png) repeat;
     background-attachment: fixed;
@@ -211,10 +190,6 @@ justify-content: flex-end;
   	width: 100%;
   	margin: auto;
   	padding-bottom: 15px;
-    }
-    footer{
-    background-image: url(../images/footer.png);
-  	height: 165px;
     }
     h1{
     color: #ED2020;
@@ -277,7 +252,9 @@ justify-content: flex-end;
     height: 90%;
     }
     h4{
-    font-size: 0.8em;
+    font-size: 0.7em;
+	position:relative;
+	bottom:7px;
     }
     h4.nombres{
     color: black;
@@ -289,40 +266,15 @@ justify-content: flex-end;
     }
     .individual{
     border: 3px inset #bb3b3b;
-    position: relative;
     width: 6em;
     height: 8em;
-    float:left;
     margin: 40px 15px 8px 30px;
     }
-    li.listado{
-    width: 30%;
-    list-style: none;
-    }
-    .datos h4{
-    margin: 20px;
-    text-align: center;
-    }
     #link-foto-pablo, #link-foto-juan, #link-foto-alberto, #link-foto-antonio{
-    line-height: 20px;
-    padding: 9px;
-    margin:0px 0px 5px 0px;
-    background-color:#bb3b3b;
-    color: white;
-    font-weight: bold;
     font-size: 0.9em;
     }
     .informacion{
     border:3px solid #bb3b3b;
     margin:25px;
     }
-    .ok{
-      height: 7em;
-      width: 14em;
-      position:relative;top:3px;left:4px;}
-    .ok2{
-      width: 3em;
-      height: 1em;
-      position:relative;right:4px;top:3px;float:right;}
-    .con{text-align: center;color:white;font-size:16px; }
   }
