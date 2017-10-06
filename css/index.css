@@ -155,6 +155,21 @@ margin: 20px;
 .ok{position:relative;top:3px;left:115px;}
 .ok2{position:relative;right:130px;top:50px;float:right;}
 .con{text-align: center;position: relative;top: 5px;color:white;font-size:20px; }
+
+.link-social img{
+  width:100%;
+}
+
+.link-social{
+display:flex;
+justify-content: flex-end;
+}
+
+.link-social a{
+  width:50px;
+  margin:10px;
+}
+
   @media (max-width: 1000px){
     .lista a{
     text-decoration: none;
